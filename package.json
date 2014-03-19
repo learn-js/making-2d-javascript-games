@@ -1,0 +1,18 @@
+{
+  "name": "making-2d-javascript-games",
+  "description": "Making 2d JavaScript Games",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/sethvincent/making-2d-javascript-games.git"
+  },
+  "main": "game.js",
+  "scripts": {
+    "bundle-game": "browserify game.js -o bundle.js",
+    "start": "beefy game.js:bundle.js --live"
+  },
+  "dependencies": {
+    "gameloop-canvas": "^0.3.2",
+    "crtrdg-mouse": "^0.1.0"
+  },
+  "devDependencies": {}
+}
