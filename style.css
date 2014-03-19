@@ -233,9 +233,14 @@ a.button {
   font-size: 18px;
 }
 
+#buy h1 {
+  text-align: center;
+}
+
 #purchase-options {
   margin: 0px;
   padding: 0px;
+  text-align: center;
 }
 
 #purchase-options > li {
@@ -243,6 +248,7 @@ a.button {
   display: inline-block;
   vertical-align: top;
   margin: 20px 40px 20px 0px;
+  text-align: left;
 }
 
 #purchase-options li ul {
